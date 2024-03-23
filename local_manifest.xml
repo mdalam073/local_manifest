@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="sir"
+    <remote name="los21"
             fetch="https://github.com/mdalam073"
             revision="lineage-21"/>
 
