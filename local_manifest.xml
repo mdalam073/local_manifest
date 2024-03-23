@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="los21"
-            fetch="https://github.com/mdalam073"
-            revision="lineage-21"/>
-
     <remote name="rem"
             fetch="https://github.com" />
     
     <remote name="proton"
             fetch="https://gitlab.com/LeCmnGend" />
 
-    <!-- Remove project -->
-    <remove-project name="LineageOS/android_hardware_lineage_compat" />
+    <!-- Remove unnecessary project -->
+    <!-- <remove-project name="LineageOS/android_hardware_lineage_compat" /> -->
 
     <!-- Sync trees -->
     <project path="hardware/lineage/compat" name="mdalam073/android_hardware_lineage_compat" remote="rem" revision="lineage-21.0" />
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="rem" revision="lineage-21" />
 
-    <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="sir" />
-    <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="sir" />
-    <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="sir" />
-    <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="sir" />
+    <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" />
+    <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" />
+    <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" />
+    <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" />
     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton" revision="clang-15" />
     <project path="kernel/xiaomi/tissot" name="noob_kernel_xiaomi_tissot" remote="sir" />
 </manifest>
