@@ -16,7 +16,7 @@
 
     <!-- Sync trees -->
     <project path="hardware/lineage/compat" name="mdalam073/android_hardware_lineage_compat" remote="rem" revision="lineage-21.0" />
-    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="rem" revision="lineage-21" />
+    <project path="hardware/xiaomi" name="PixelExperience/android_hardware_xiaomi" remote="rem" revision="fourteen" />
 
     <!-- Update device_xiaomi_tissot project -->
     <project path="device/xiaomi/tissot" name="mdalam073/device_xiaomi_tissot" remote="los21" revision="PixelExperience-14" />
