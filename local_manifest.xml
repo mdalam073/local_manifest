@@ -23,7 +23,7 @@
     <!-- Add other projects -->
 
     <project path="vendor/xiaomi/tissot" name="Lafactorial/vendor_xiaomi_tissot" remote="los21" revision="lineage-21" />
-    <project path="device/xiaomi/msm8953-common" name="mdalam073/device_xiaomi_msm8953-common" remote="los21" revision="lineage-21" />
+    <project path="device/xiaomi/msm8953-common" name="mdalam073/device_xiaomi_msm8953-common" remote="los21" revision="PE-14" />
     <project path="vendor/xiaomi/msm8953-common" name="Lafactorial/vendor_xiaomi_msm8953-common" remote="los21" revision="lineage-21" />
     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="proton" revision="clang-15" />
     <project path="kernel/xiaomi/tissot" name="sirnewbies/noob_kernel_xiaomi_tissot" remote="los21" revision="lineage-21" />
