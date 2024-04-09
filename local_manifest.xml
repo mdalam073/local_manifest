@@ -16,7 +16,7 @@
     <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="rem" revision="fourteen" />
 
     <!-- Update device_xiaomi_tissot project -->
-    <project path="device/xiaomi/tissot" name="mdalam073/device_xiaomi_tissot" remote="rem" revision="android-14.0.0_r22" />
+    <project path="device/xiaomi/tissot" name="mdalam073/device_xiaomi_tissot" remote="rem" revision="lineage-21" />
     <!-- Add other projects -->
 
     <project path="vendor/xiaomi/tissot" name="Lafactorial/vendor_xiaomi_tissot" remote="rem" revision="lineage-21" />
