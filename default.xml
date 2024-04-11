@@ -23,7 +23,7 @@
   <project path="vendor/xiaomi" name="mdalam073/android_vendor_xiaomi" groups="vendor" />
 
   <!-- Kernel repository -->
-  <project path="kernel/xiaomi/msm8953" name="mdalam073/android_kernel_xiaomi_msm8953" groups="kernel" />
+  <project path="kernel/xiaomi/msm8953" name="mdalam073/noob_kernel_xiaomi_tissot" groups="kernel" />
 
   <!-- Common Android frameworks and libraries -->
   <project path="frameworks/base" name="mdalam073/android_frameworks_base" groups="frameworks" />
