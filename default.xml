@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Include the AOSP remote -->
+  <remote
+    name="aosp"
+    fetch="https://android.googlesource.com"
+    review="https://android-review.googlesource.com/" />
+
+  <!-- Set default revision and sync options -->
+  <default
+    revision="refs/tags/android-14.0.0_r31"
+    remote="aosp"
+    sync-c="true"
+    sync-d="true"
+    sync-f="true"
+    sync-j="4" />
+
+  <!-- Device-specific repository -->
+  <project path="device/xiaomi/tissot" name="mdalam073/android_device_xiaomi_tissot" groups="device" />
+
+  <!-- Vendor-specific repository -->
+  <project path="vendor/xiaomi" name="mdalam073/android_vendor_xiaomi" groups="vendor" />
+
+  <!-- Kernel repository -->
+  <project path="kernel/xiaomi/msm8953" name="mdalam073/android_kernel_xiaomi_msm8953" groups="kernel" />
+
+  <!-- Common Android frameworks and libraries -->
+  <project path="frameworks/base" name="mdalam073/android_frameworks_base" groups="frameworks" />
+
+  <!-- Hardware-specific repositories -->
+  <project path="hardware/qcom/audio" name="mdalam073/android_hardware_qcom_audio" groups="hardware" />
+
+  <!-- Custom features or modifications -->
+  <project path="packages/apps/Camera" name="mdalam073/android_packages_apps_Camera" groups="apps" />
+
+  <!-- Miscellaneous repositories -->
+  <project path="tools" name="mdalam073/android_tools" groups="tools" />
+
+</manifest>
