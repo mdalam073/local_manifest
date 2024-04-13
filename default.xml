@@ -16,5 +16,7 @@
   <!-- Kernel repository -->
   <project path="kernel/xiaomi/msm8953" name="mdalam073/android_kernel_xiaomi_msm8953" groups="kernel" />
 
+<!--- Common Device tree(if needed) --->
+<project path="device/xiaomi/msm8953-common" name="Evolution-X-Devices/device_xiaomi_msm8953-common" remote="rem" revision="udc" clone-depth="1" />
 
 </manifest>
