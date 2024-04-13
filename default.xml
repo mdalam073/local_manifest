@@ -4,7 +4,7 @@
   <!-- Include the rem remote -->
   <remote
     name="rem"
-    fetch="https://guthub.com"
+    fetch="https://github.com"
 
 
   <!-- Device-specific repository -->
