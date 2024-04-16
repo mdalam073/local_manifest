@@ -10,8 +10,8 @@
 <project path="device/xiaomi/tissot" name="mdalam073/android_device_xiaomi_tissot" remote="rem" revision="derp-14" clone-depth="1" />
     
 <!--- Common Device tree(if needed) --->
-<project path="device/xiaomi/msm8953-common" name="Evolution-X-Devices/device_xiaomi_msm8953-common" remote="rem" revision="udc" clone-depth="1" />
-
+<project path="device/xiaomi/msm8953-common" name="Evolution-X-Devices/device_xiaomi_msm8953-common" remote="rem" revision="udc" clone-depth="1" />    
+    
 <!--- Vendor --->
 <project path="vendor/xiaomi/tissot" name="Lafactorial/vendor_xiaomi_tissot" remote="rem" revision="lineage-21" clone-depth="1" />
 
@@ -25,5 +25,5 @@
 <remove-project name="android_hardware_lineage_compat" />
         <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-21.0" />
         <project path="hardware/xiaomi" name="yaap/hardware_xiaomi" remote="rem" revision="fourteen" />
-
+        <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" remote="rem" revision="lineage-21.0-legacy-um" />
 </manifest>
