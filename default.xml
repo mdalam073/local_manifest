@@ -25,5 +25,4 @@
 <remove-project name="android_hardware_lineage_compat" />
         <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-21.0" />
         <project path="hardware/xiaomi" name="yaap/hardware_xiaomi" remote="rem" revision="fourteen" />
-        <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" remote="rem" revision="lineage-21.0-legacy-um" />
-</manifest>
+       <project path="device/qcom/sepolicy-legacy-um" name="DerpFest-AOSP/device_qcom_sepolicy" remote="rem" revision="14-legacy-um" />
