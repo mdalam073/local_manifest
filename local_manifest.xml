@@ -21,6 +21,10 @@
 <!--- Kernel --->
 <project path="kernel/xiaomi/msm8953" name="Lafactorial/android_kernel_xiaomi_msm8953" remote="rem" revision="rebase" clone-depth="1" />
 
+    <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="lineage-21.0-caf-msm8996" remote="LineageOS" />
+  <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="lineage-21.0-caf-msm8996" remote="LineageOS" />
+  <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,legacy-qcom" revision="lineage-21.0-caf-msm8996" remote="LineageOS" />
+    
 <!--- Other stuff --->
 <remove-project name="android_hardware_lineage_compat" />
         <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-21.0" />
