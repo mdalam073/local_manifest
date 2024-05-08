@@ -11,4 +11,5 @@
         <project path="vendor/xiaomi/msm8953-common" name="Lafactorial/vendor_xiaomi_msm8953-common" remote="rem" revision="lineage-21" clone-depth="1" />
         <project path="kernel/xiaomi/msm8953" name="Lafactorial/android_kernel_xiaomi_msm8953" remote="rem" revision="lineage-21" clone-depth="1" />
 
+https://github.com/VoltageOS/manifest/blob/14/snippets%2Fvoltage.xml
 </manifest>
