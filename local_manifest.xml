@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="rem"
-                fetch="https://github.com" />
-    <remove-project name="hardware_lineage_compat" />
-        <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-21.0" clone-depth="1" />
-        <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" remote="rem" revision="14.0" clone-depth="1" />
-        <project path="device/xiaomi/tissot" name="mdalam073/android_device_xiaomi_tissot" remote="rem" revision="voltageos-14" clone-depth="1" />
-        <project path="device/xiaomi/msm8953-common" name="mdalam073/device_xiaomi_msm8953-common" remote="rem" revision="voltageos-14" clone-depth="1" />
-        <project path="vendor/xiaomi/tissot" name="Lafactorial/vendor_xiaomi_tissot" remote="rem" revision="lineage-21" clone-depth="1" />
-        <project path="vendor/xiaomi/msm8953-common" name="Lafactorial/vendor_xiaomi_msm8953-common" remote="rem" revision="lineage-21" clone-depth="1" />
-        <project path="kernel/xiaomi/msm8953" name="Lafactorial/android_kernel_xiaomi_msm8953" remote="rem" revision="lineage-21" clone-depth="1" />
+  <!-- Remotes -->
+  <remote name="gh"
+          fetch="https://github.com"
+          clone-depth="1" />
+
+  <!-- Device Tree -->
+  <project path="device/xiaomi/tissot" name="mdalam073/device_xiaomi_tissot" remote="gh" revision="14" />
+
+  <!-- Kernel Tree -->
+  <project path="kernel/xiaomi/msm8953" name="Lafactorial/android_kernel_xiaomi_msm8953" remote="gh" revision="lineage-21" />
+
+  <!-- Vendor Tree -->
+  <project path="vendor/xiaomi/tissot" name="Lafactorial/vendor_xiaomi_tissot" remote="gh" revision="lineage-21" />
+  <project path="vendor/xiaomi/msm8953-common" name="Lafactorial/vendor_xiaomi_msm8953-common" remote="gh" revision="lineage-21" />
+
+  <!-- Dolby -->
+  <project path="hardware/dolby" name="mdalam073/hardware_dolby" remote="gh" revision="14" />
+
+  <!-- Extras -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="gh" revision="lineage-21" />
+
 </manifest>
