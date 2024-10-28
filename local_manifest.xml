@@ -1,32 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-   <remote name="roms-experimental"
-            fetch="https://github.com/roms-experimental"
-            clone-depth="1" />
-   <remote name="tran_mt6789"
-            fetch="https://github.com/Transsion-MT6789-Resources"
-            clone-depth="1" />
    <remote name="Anythingat25"
 	    fetch="https://github.com/Anything-at-25-00"
 	    clone-depth="1" />
-   <remote name="LineageOS"
-	    fetch="https://github.com/LineageOS"
-	    clone-depth="1" />
 
  <!--Tree -->
- <project path="device/tecno/LG8n" name="android_device_tecno_LG8n" remote="Anythingat25" revision="rising-14-redo" />
- <project path="device/tecno/mt6789-common" name="android_device_tecno_mt6789-common" remote="Anythingat25" revision="fourteen" />
-	
+ <project path="device/tecno/LG8n" name="android_device_tecno_LG8n" remote="Anythingat25" revision="rising-15" />
+ <project path="device/tecno/mt6789-common" name="android_device_tecno_mt6789-common" remote="Anythingat25" revision="fifteen" />
+
  <!--Kernel -->
  <project path="device/tecno/LG8n-kernel" name="device_tecno_lg8n_kernel" remote="Anythingat25" revision="lineage-21" />
  
  <!--Vendor -->
  <project path="vendor/tecno/LG8n" name="android_vendor_tecno_LG8n" remote="Anythingat25" revision="fourteen" />
- <project path="vendor/tecno/mt6789-common" name="android_vendor_tecno_mt6789-common" remote="Anythingat25" revision="fourteen" />
+ <project path="vendor/tecno/mt6789-common" name="android_vendor_tecno_mt6789-common" remote="Anythingat25" revision="fifteen" />
 	
  <!--stuff -->
- <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LineageOS" revision="lineage-21" />
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Anythingat25" revision="fifteen" />
  <project path="hardware/transsion" name="hardware_transsion" remote="Anythingat25" revision="lineage-20.0" />
- <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-21"/>
-<!-- <project path="device/transsion/mt6789-headers" name="device_transsion_mt6789-common" remote="tran_mt6789" revision="lineage-20.0" /> -->
+ <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Anythingat25" revision="fifteen"/>
 </manifest>
