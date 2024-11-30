@@ -16,7 +16,7 @@
  <project path="vendor/tecno/mt6789-common" name="android_vendor_tecno_mt6789-common" remote="Anythingat25" revision="fifteen" />
 	
  <!--stuff -->
- <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Anythingat25" revision="fifteen" />
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Anythingat25" revision="lineage-22" />
  <project path="hardware/transsion" name="hardware_transsion" remote="Anythingat25" revision="lineage-20.0" />
  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Anythingat25" revision="fifteen"/>
 </manifest>
