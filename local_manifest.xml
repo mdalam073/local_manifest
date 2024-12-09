@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="rem"
-                fetch="https://github.com" />
-        <remove-project name="LineageOS/android_hardware_lineage_compat" />
-        <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-21.0" clone-depth="1" />
-        <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" remote="rem" revision="14.0" clone-depth="1" />
-        <project path="device/xiaomi/tissot" name="mdalam073/android_device_xiaomi_tissot" remote="rem" revision="lineage-21" clone-depth="1" />
-        <project path="device/xiaomi/msm8953-common" name="mdalam073/device_xiaomi_msm8953-common" remote="rem" revision="lineage-21" clone-depth="1" />
-        <project path="vendor/xiaomi/tissot" name="Lafactorial/vendor_xiaomi_tissot" remote="rem" revision="lineage-21" clone-depth="1" />
-        <project path="vendor/xiaomi/msm8953-common" name="Lafactorial/vendor_xiaomi_msm8953-common" remote="rem" revision="lineage-21" clone-depth="1" />
-        <project path="kernel/xiaomi/msm8953" name="Lafactorial/android_kernel_xiaomi_msm8953" remote="rem" revision="lineage-21" clone-depth="1" />
+   <remote name="roms-experimental"
+            fetch="https://github.com/roms-experimental"
+            clone-depth="1" />
+   <remote name="tran_mt6789"
+            fetch="https://github.com/Transsion-MT6789-Resources"
+            clone-depth="1" />
+   <remote name="Anythingat25"
+	    fetch="https://github.com/Anything-at-25-00"
+	    clone-depth="1" />
+   <remote name="LineageOS"
+	    fetch="https://github.com/LineageOS"
+	    clone-depth="1" />
 
+ <!--Tree -->
+ <project path="device/tecno/LG7n" name="android_device_tecno_LG7n" remote="Anythingat25" revision="lineage-21.0-recommon" />
+ <project path="device/tecno/mt6789-common" name="android_device_tecno_mt6789-common" remote="Anythingat25" revision="fourteen" />
+	
+ <!--Kernel -->
+ <project path="device/tecno/LG7n-kernel" name="device_tecno_lg7n_kernel" remote="Anythingat25" revision="lineage-21" />
+ 
+ <!--Vendor -->
+ <project path="vendor/tecno/LG7n" name="android_vendor_tecno_LG7n" remote="Anythingat25" revision="fourteen" />
+ <project path="vendor/tecno/mt6789-common" name="android_vendor_tecno_mt6789-common" remote="Anythingat25" revision="fourteen" />
+	
+ <!--stuff -->
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LineageOS" revision="lineage-21" />
+ <project path="hardware/transsion" name="hardware_transsion" remote="Anythingat25" revision="lineage-20.0" />
+ <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-21"/>
+<!-- <project path="device/transsion/mt6789-headers" name="device_transsion_mt6789-common" remote="tran_mt6789" revision="lineage-20.0" /> -->
 </manifest>
