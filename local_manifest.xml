@@ -3,6 +3,9 @@
    <remote name="Anythingat25"
 	    fetch="https://github.com/Anything-at-25-00"
 	    clone-depth="1" />
+    <remote name="rem"
+            fetch="https://github.com/mdalam073"
+            clone-depth="1" />
 
  <!--Tree -->
  <project path="device/tecno/LG7n" name="android_device_tecno_LG7n" remote="rem" revision="mist-15" />
