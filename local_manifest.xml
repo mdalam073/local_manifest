@@ -8,18 +8,18 @@
             clone-depth="1" />
 
  <!--Tree -->
- <project path="device/tecno/LG7n" name="android_device_tecno_LG7n" remote="rem" revision="mist-15" />
- <project path="device/tecno/mt6789-common" name="android_device_tecno_mt6789-common" remote="Anythingat25" revision="fifteen" />
+ <project path="device/tecno/LG7n" name="android_device_tecno_LG7n" remote="rem" revision="lineage-22.2" />
+ <project path="device/tecno/mt6789-common" name="android_device_tecno_mt6789-common" remote="Anythingat25" revision="fifteen-bp1a" />
 
  <!--Kernel -->
  <project path="device/tecno/LG7n-kernel" name="device_tecno_lg7n_kernel" remote="Anythingat25" revision="lineage-21" />
  
  <!--Vendor -->
- <project path="vendor/tecno/LG7n" name="android_vendor_tecno_LG7n" remote="Anythingat25" revision="fourteen" />
- <project path="vendor/tecno/mt6789-common" name="android_vendor_tecno_mt6789-common" remote="Anythingat25" revision="fifteen" />
+ <project path="vendor/tecno/LG7n" name="android_vendor_tecno_LG7n" remote="Anythingat25" revision="fifteen-bp1a" />
+ <project path="vendor/tecno/mt6789-common" name="android_vendor_tecno_mt6789-common" remote="Anythingat25" revision="fifteen-bp1a" />
 	
  <!--stuff -->
- <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Anythingat25" revision="lineage-22" />
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="Anythingat25" revision="lineage-22.1" />
  <project path="hardware/transsion" name="hardware_transsion" remote="Anythingat25" revision="lineage-20.0" />
  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Anythingat25" revision="fifteen"/>
 </manifest>
