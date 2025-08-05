@@ -2,10 +2,9 @@
 <manifest>
         <remote name="rem"
                 fetch="https://github.com" />
-        <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" remote="rem" revision="10.0" clone-depth="1" />
-        <project path="device/xiaomi/tissot" name="crdroidandroid/android_device_xiaomi_tissot" remote="rem" revision="10.0" clone-depth="1" />
-        <project path="device/xiaomi/msm8953-common" name="crdroidandroid/android_device_xiaomi_msm8953-common" remote="rem" revision="10.0" clone-depth="1" />
-        <project path="vendor/xiaomi/msm8953-common" name="crdroidandroid/android_vendor_xiaomi_msm8953-common" remote="rem" revision="10.0" clone-depth="1" />
-        <project path="kernel/xiaomi/msm8953" name="crdroidandroid/android_kernel_xiaomi_tissot" remote="rem" revision="10.0" clone-depth="1" />
+        <project path="hardware/xiaomi"         <project path="device/xiaomi/tissot" name="zhantech/dt_tissot" remote="tree" revision="10" />
+        <project path="device/xiaomi/msm8953-common" name="zhantech/dt_msm8953" remote="tree" revision="10" />
+        <project path="vendor/xiaomi" name="zhantech/vt_tissot" remote="tree" revision="10" />
+        <project path="kernel/xiaomi/msm8953" name="mdalam073/voyager_Kernel_Tissot" remote="tree" revision="Cakeby" />
 
 </manifest>
