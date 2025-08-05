@@ -6,6 +6,6 @@
         <project path="device/xiaomi/tissot" name="zhantech/dt_tissot" remote="rem" revision="10" />
         <project path="device/xiaomi/msm8953-common" name="zhantech/dt_msm8953" remote="rem" revision="10" />
         <project path="vendor/xiaomi" name="zhantech/vt_tissot" remote="rem" revision="10" />
-        <project path="kernel/xiaomi/msm8953" name="mdalam073/Voyager_Kernel" remote="rem" revision="Voyager-Non-Treble" />
+        <project path="kernel/xiaomi/msm8953" name="mdalam073/Voyager-Kernel" remote="rem" revision="Voyager-Non-Treble" />
 
 </manifest>
